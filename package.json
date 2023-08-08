@@ -1,0 +1,46 @@
+{
+  "name": "perspective-viewer-datagrid-norollups",
+  "version": "0.0.1",
+  "description": "A Perspective plugin for single values",
+  "repository": "git@github.com:perspective-community/perspective-viewer-datagrid-norollups.git",
+  "author": "Tim Paine <t.paine154@gmail.com>",
+  "license": "Apache-2.0",
+  "unpkg": "dist/cdn/perspective-viewer-datagrid-norollups.js",
+  "jsdelivr": "dist/cdn/perspective-viewer-datagrid-norollups.js",
+  "exports": {
+    ".": "./dist/esm/perspective-viewer-datagrid-norollups.js",
+    "./dist/*": "./dist/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist/**/*",
+    "index.d.ts"
+  ],
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "node build.js",
+    "lint": "prettier --check \"examples/*.js\" \"examples/*.html\" \"src/js/*.js\" \"tests/*.spec.js\" \"*.js\" \"*.json\" \"index.d.ts\" \"*.md\"",
+    "fix": "prettier --write  \"examples/*.js\" \"examples/*.html\" \"src/js/*.js\" \"tests/*.spec.js\" \"*.js\" \"*.json\" \"index.d.ts\" \"*.md\"",
+    "test": "TZ=UTC playwright test",
+    "start:tests": "http-server -p 3000 ",
+    "start:examples": "http-server -p 3000 -o examples/",
+    "clean": "rimraf dist playwright-report"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@finos/perspective": "^2.3.2",
+    "@finos/perspective-viewer": "^2.3.2",
+    "@finos/perspective-viewer-datagrid": "^2.3.2"
+  },
+  "devDependencies": {
+    "@finos/perspective-esbuild-plugin": "^2.3.2",
+    "@playwright/test": "^1.36.2",
+    "@prospective.co/procss": "^0.1.13",
+    "esbuild": "^0.19.0",
+    "esbuild-plugin-less": "^1.2.3",
+    "http-server": "^14.1.1",
+    "prettier": "^3.0.1"
+  }
+}
