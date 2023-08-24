@@ -1,6 +1,6 @@
 {
   "name": "perspective-viewer-datagrid-norollups",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Perspective plugin for single values",
   "repository": "git@github.com:perspective-community/perspective-viewer-datagrid-norollups.git",
   "author": "Tim Paine <t.paine154@gmail.com>",
@@ -19,12 +19,13 @@
   "types": "index.d.ts",
   "scripts": {
     "build": "node build.js",
+    "clean": "rimraf dist playwright-report",
     "lint": "prettier --check \"examples/*.js\" \"examples/*.html\" \"src/js/*.js\" \"tests/*.spec.js\" \"*.js\" \"*.json\" \"index.d.ts\" \"*.md\"",
     "fix": "prettier --write  \"examples/*.js\" \"examples/*.html\" \"src/js/*.js\" \"tests/*.spec.js\" \"*.js\" \"*.json\" \"index.d.ts\" \"*.md\"",
-    "test": "TZ=UTC playwright test",
+    "prepack": "npm run build",
     "start:tests": "http-server -p 3000 ",
     "start:examples": "http-server -p 3000 -o examples/",
-    "clean": "rimraf dist playwright-report"
+    "test": "TZ=UTC playwright test"
   },
   "publishConfig": {
     "access": "public"
