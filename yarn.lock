@@ -121,24 +121,24 @@
     tar "^6.1.11"
 
 "@finos/perspective-viewer-datagrid@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer-datagrid/-/perspective-viewer-datagrid-2.3.2.tgz#2386d3457efb45663d017379262864447d41011c"
-  integrity sha512-EpLMf4UzLfgtuMI+MX5aoxhwLsowG65s0oHDG9TIjtZN/1WZ90E0c/yPgO+rPeBfm5z85bmDCKy+9s0ydWLYXg==
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer-datagrid/-/perspective-viewer-datagrid-2.5.1.tgz#c1577993407755cd34af49767369506665aebe3a"
+  integrity sha512-dlnLPSKem7vuKWaCxPk5z0PLAcZsHOUoDY3iX+Tn8vRSiae5DWerJQVBQ3Rpx0AayOF6Rw0Oe665P9oFYRRJkg==
   dependencies:
-    "@finos/perspective" "^2.3.2"
-    "@finos/perspective-viewer" "^2.3.2"
+    "@finos/perspective" "^2.5.1"
+    "@finos/perspective-viewer" "^2.5.1"
     chroma-js "^1.3.4"
-    regular-table "=0.5.7"
+    regular-table "=0.6.1"
 
-"@finos/perspective-viewer@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-2.3.2.tgz#f94c6939dab30c037bf583087faa89bc435de6c4"
-  integrity sha512-CPV1ogYgmMzIeM5bvgoUxSGo19J6RuqtwVYnM7V7CQ5Vm5O2mzH2yPZ4TFLcQZIU4w0WIgv8hfM6k2kXheclnw==
+"@finos/perspective-viewer@^2.3.2", "@finos/perspective-viewer@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-2.5.1.tgz#3f74b1597923dd20bd4f1e04cc035be193af3b6d"
+  integrity sha512-j2ujok6z/B3dlWY7bP/vlyvVSqF5YnYUD8w2+to6rHfdSQBNvaApW2rZTfw9EepyBI9eDeKOq4l4mJj7A02bsA==
   dependencies:
-    "@finos/perspective" "^2.3.2"
+    "@finos/perspective" "^2.5.1"
     fflate "^0.7.4"
 
-"@finos/perspective@^2.3.2":
+"@finos/perspective@^2.3.2", "@finos/perspective@^2.5.1":
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-2.5.1.tgz#ebb6200434a6aeb76c9db2c97fc2b213634f497b"
   integrity sha512-L2pdHIq7xmdL6mSP92yolRhHWYyLsb4KUUxD/iAilkcb4M4jBBpzSyOIO+fbr/RfjaTSUPxAoG3uZShLFT9ymA==
@@ -561,10 +561,10 @@ qs@^6.4.0:
   dependencies:
     side-channel "^1.0.4"
 
-regular-table@=0.5.7:
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/regular-table/-/regular-table-0.5.7.tgz#424f5dfa6e1fb95d1fc8e0b3ee299cea6289d540"
-  integrity sha512-BcneWdPuabfdVxqoEKe6U7qgtXpbNxQnL/pGdMbU4G4ldYifEQm+ihyBiUz4JwVqQZtgY8TU+8xzpgWNg8bgiw==
+regular-table@=0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/regular-table/-/regular-table-0.6.1.tgz#3ed7e4ef8239b6a5ca263155f01c1ea46410d56a"
+  integrity sha512-acW88btxiFO5TImHYsM/oWpZEGH3S9RxeozvOJn6+pCLgYTBsZtM3zwErAfAyxvgutcaC3iiKnWKT8tz296Wmw==
 
 requires-port@^1.0.0:
   version "1.0.0"
