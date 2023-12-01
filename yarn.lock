@@ -121,24 +121,23 @@
     tar "^6.1.11"
 
 "@finos/perspective-viewer-datagrid@^2.3.2":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer-datagrid/-/perspective-viewer-datagrid-2.6.1.tgz#2e174ae6451bc8fe60429c9fdd72c80df6873505"
-  integrity sha512-uwdH/VyX+AuDhb373DuycUr5wvK99iW3ow+H84D2e6oNepwLRyuYDs9Par0V3ugW36xzV59ZNxkY7D9a3s1jFw==
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer-datagrid/-/perspective-viewer-datagrid-2.7.1.tgz#516e8533bd731034ab68d40397716d7eca18babf"
+  integrity sha512-opihYaTOaCkrCJ0i//Iqi2/c20A6qMAMWnNTGPM7XnH7Xa785LPN/V5bsKt5DvKisd9GY8aOrAU3/pUlMvb4mg==
   dependencies:
-    "@finos/perspective" "^2.6.1"
-    "@finos/perspective-viewer" "^2.6.1"
+    "@finos/perspective" "^2.7.1"
+    "@finos/perspective-viewer" "^2.7.1"
     chroma-js "^1.3.4"
     regular-table "=0.6.3"
 
-"@finos/perspective-viewer@^2.3.2", "@finos/perspective-viewer@^2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-2.6.1.tgz#34dffbcca32675ce893c5492a754048e69edc15d"
-  integrity sha512-uHp64TZ0afxbzN3RLft8u713fHPnix50LY7XOvqq36/EMGFlj60D9FBgci42EK4wtZCPC2fxRB2Ken2kjquFgg==
+"@finos/perspective-viewer@^2.3.2", "@finos/perspective-viewer@^2.7.1":
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-2.7.1.tgz#a6e35368652142f9ac1bbc6160f2ae781f555a99"
+  integrity sha512-mh2Xd9GSEj6J3AQMxTb/eDRZOAP2rDw6bnXGEMBjzaEzHfEV7V18NoK93G0JfqDEsUkKA0GQguTttBkmUeCVJg==
   dependencies:
-    "@finos/perspective" "^2.6.1"
-    fflate "^0.7.4"
+    "@finos/perspective" "^2.7.1"
 
-"@finos/perspective@^2.3.2", "@finos/perspective@^2.6.1":
+"@finos/perspective@^2.3.2", "@finos/perspective@^2.7.1":
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-2.7.1.tgz#9d9726c1307469a7578539899c04d245e2285e86"
   integrity sha512-KJAzWCiYsshyNn2O9dr6sfRMh/1vdX2wuyech/3ID/mmiBSCTNM/Crxz2utP1ovIXRuU0R4MNRs1AAkUwmAAnQ==
@@ -293,11 +292,6 @@ eventemitter3@^4.0.0:
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
   integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
-
-fflate@^0.7.4:
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/fflate/-/fflate-0.7.4.tgz#61587e5d958fdabb5a9368a302c25363f4f69f50"
-  integrity sha512-5u2V/CDW15QM1XbbgS+0DfPxVB+jUKhWEKuuFuHncbk3tEEqzmoXL+2KyOFuKGqOnmdIy0/davWF1CkuwtibCw==
 
 follow-redirects@^1.0.0:
   version "1.15.2"
