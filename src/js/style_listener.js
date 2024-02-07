@@ -10,7 +10,6 @@ export function rollup_style_listener(regularTable) {
   for (const tr of regularTable.children[0].children[1].children) {
     for (const td of tr.children) {
       const metadata = regularTable.getMeta(td);
-      console.log(metadata);
       if (metadata.row_header[metadata.row_header.length - 1]) {
         // keep the content
         continue;
