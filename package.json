@@ -25,7 +25,8 @@
     "prepack": "npm run build",
     "start:tests": "http-server -p 3000 ",
     "start:examples": "http-server -p 3000 -o examples/",
-    "test": "TZ=UTC playwright test"
+    "test": "TZ=UTC playwright test",
+    "test:debug": "TZ=UTC playwright test --ui"
   },
   "publishConfig": {
     "access": "public"
