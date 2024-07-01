@@ -126,23 +126,23 @@
     tar "^6.1.11"
 
 "@finos/perspective-viewer-datagrid@^2.3.2":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer-datagrid/-/perspective-viewer-datagrid-2.10.0.tgz#c5902b25b94b7335a293602b6f4e390de6a6b889"
-  integrity sha512-V/fea+/N+5Pqv9W5D7dHxhnSd3Mqu4Fs3AHOjqDmJAG4PKZWYfdnODYmQWYFnENEzAaR9vkvaywxWwyOkoTlYQ==
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer-datagrid/-/perspective-viewer-datagrid-2.10.1.tgz#737ae48a3dc66eab3372422ad0dd0d22487353c9"
+  integrity sha512-+KLpVS8UqRE7cJrcrenGiYt/faFhePX/54ZDmFfCWH+VywvqlSbwZVv2Q0kt4uGhN/Bn8OcHgvVOFKPTlpxfFQ==
   dependencies:
-    "@finos/perspective" "^2.10.0"
-    "@finos/perspective-viewer" "^2.10.0"
+    "@finos/perspective" "^2.10.1"
+    "@finos/perspective-viewer" "^2.10.1"
     chroma-js "^1.3.4"
     regular-table "=0.6.4"
 
-"@finos/perspective-viewer@^2.10.0", "@finos/perspective-viewer@^2.3.2":
+"@finos/perspective-viewer@^2.10.1", "@finos/perspective-viewer@^2.3.2":
   version "2.10.1"
   resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-2.10.1.tgz#e868ce45269852bc3e30639e8f4ab6c7735d4e9f"
   integrity sha512-G/P+EQXRTYurWpTjTU+VXKM3WHbbTjjpxEfLQLA9BS8gO0NwK1nXT7I5a9PEhVtRnVHEJrpNa2+VbIWTeG15dQ==
   dependencies:
     "@finos/perspective" "^2.10.1"
 
-"@finos/perspective@^2.10.0", "@finos/perspective@^2.10.1", "@finos/perspective@^2.3.2":
+"@finos/perspective@^2.10.1", "@finos/perspective@^2.3.2":
   version "2.10.1"
   resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-2.10.1.tgz#22f3e806a55c1eb1ccf077c70d0d192ce8c1326a"
   integrity sha512-2WfHOKH8XEtkQqgg8T9OxWsE44Kr5T7iX3zqwVRrnllKySBRav76Ah2v2cKyMbZCsuieqWAFliIzIoJpI8ZNiA==
